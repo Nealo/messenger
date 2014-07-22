@@ -1,0 +1,48 @@
+.popup {
+  display: none;
+  width: 25%;
+  min-width: 200px;
+  max-width: 300px;
+  position: absolute;
+  top: 35%;
+  left: 37.5%;
+  padding: 20px;
+  background-color: #eee;
+  text-align: center; }
+  .popup h3 {
+    margin-top: 0px; }
+  .popup p {
+    font-size: 90%; }
+  .popup form {
+    margin: 0px; }
+    .popup form label, .popup form input {
+      display: block; }
+    .popup form input {
+      width: 100%;
+      margin: 5px 0px 10px 0px; }
+      .popup form input:last-child {
+        margin-bottom: 0px; }
+
+body h2 {
+  text-align: center; }
+
+ul li {
+  list-style-type: none; }
+
+#chat {
+  float: left;
+  width: 60%; }
+  #chat form {
+    width: 100%; }
+    #chat form input[type="text"] {
+      width: 80%;
+      margin-left: 5%; }
+    #chat form input {
+      margin: 0 auto; }
+
+aside {
+  width: 33%;
+  float: right; }
+
+.server {
+  color: red; }

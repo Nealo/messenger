@@ -1,0 +1,50 @@
+<!doctype>
+<html>
+<head>
+	<title>Messenger App</title>
+
+	<link rel="stylesheet" href="/style.css">
+
+
+</head>
+<body>
+	<div id="chat">
+		<h2>nosMessages</h2>
+
+		<ul id="messages">
+
+		</ul>
+
+		<form id="form-text-input">
+			<input type="text" id="text-input">
+			<input id="text-send" type="submit">
+		</form>
+	</div>
+
+	<aside id="side-panel">
+		<h2>Users Connectés</h2>
+		<ul id="connected-users">
+
+		</ul>
+	</div>
+
+	<div id="popup-username" class="popup">
+		<h3>Bienvenue à jeMessage</h3>
+		<p>
+			La versione française de l'application celebre de Pomme.
+		</p>
+		<hr>
+		<form id="form-create-username">
+			<label for="username">Nom d'user</label>
+			<input id="input-username" type="text" name="username">
+
+			<input type="submit" value="Créez nom d'user">
+		</form>
+	</div>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+
+<script src="http://192.168.0.12:4444/socket.io/socket.io.js"></script>
+<script src="/jquery-2.0.2.min.js"></script>
+<script src="/script.js"></script>
+</html>
